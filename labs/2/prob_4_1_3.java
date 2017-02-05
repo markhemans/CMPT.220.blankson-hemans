@@ -16,7 +16,7 @@ public class prob_4_1_3
         Scanner input = new Scanner(System.in);
         char i = input.next().charAt(0);
         int unicode = (int)i;
-        if (unicode==97 || unicode ==65 || unicode == 101 || unicode ==73 || unicode == 105 || unicode ==79 || unicode == 111 || unicode ==117 || unicode == 85 )
+        if (unicode==97 || unicode ==65 || unicode == 101 || unicode ==73 || unicode == 105 || unicode ==79 || unicode == 111 || unicode ==117 || unicode == 85 ) // JA: You missed 'E'
         {
             System.out.println(i + " is a vowel");
         }
