@@ -28,30 +28,36 @@ public class prob_6_3 {
         
         }
     }
-    
-
-    public static boolean isPalindrome (int number)
+  
+public static int reverse (int number1)
     {
-        int palindrome = number;
-        int reverse = 0;
-       while (palindrome != 0) {
+      int palindrome = number1;
+      int reverse = 0;
+       while (palindrome != 0) 
+       {
             int remainder = palindrome % 10;
             reverse = reverse * 10 + remainder;
             palindrome = palindrome / 10;
         }
+        return reverse;
+    }
 
-        // if original and reverse of number is equal means
-        // number is palindrome in Java
-        if (number == reverse) {
+    public static boolean isPalindrome (int numero)
+    {
+         
+        if (reverse(numero) == numero)
+           {
+   
             return true;
         }
-        return false;
-
+        else return false;
+        
+        
+      
+        
+    }  
+        
 
     }
-    public static int reverse (int number)
-    {
-       
-        return number;
-    }
-}
+    
+
