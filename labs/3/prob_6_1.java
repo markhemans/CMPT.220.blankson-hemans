@@ -17,14 +17,17 @@ public class prob_6_1 {
             {
                 System.out.println();
             }
-                getPentagonalNumber(a);
+               getPentagonalNumber(a);
             
         }
     }
     public static int getPentagonalNumber (int n)
     {
          n = (n*(3*n)-1)/2;
-        
+        if (n>5)
+        {
+            n=n-1;
+        }
         System.out.print(" "+n+" ");
         return n;
     }
