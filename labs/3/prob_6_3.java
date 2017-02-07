@@ -20,11 +20,11 @@ public class prob_6_3 {
        
        if(isPalindrome(number))
         {
-            System.out.println("Number : " + number + " is a palindrome");
+            System.out.println(number + " is a palindrome");
         }
         else
         {
-            System.out.println("Number : " + number + " is not a palindrome");
+            System.out.println(number + " is not a palindrome");
         
         }
     }
