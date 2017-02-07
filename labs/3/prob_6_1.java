@@ -10,9 +10,12 @@ public class prob_6_1 {
     
     
     public static void main(String[] args) {
-        for (int a =1; a<101; a++)
+        for (int a =1; a<100;a++)
         {
-            
+            if (a==10)
+            {
+               getPentagonalNumber(a); 
+            }
             if (a%10==0)
             {
                 System.out.println();
