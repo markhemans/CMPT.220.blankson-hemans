@@ -20,14 +20,15 @@ public class prob_6_1 {
             {
                 System.out.println();
             }
-               getPentagonalNumber(a);
+               getPentagonalNumber(a); // JA: You should print the value from here, not have the method
+			   // JA: return the value and print. Methods should do one thing.
             
         }
     }
     public static int getPentagonalNumber (int n)
     {
-         n = (n*(3*n)-1)/2;
-        if (n>5)
+         n = (n*(3*n)-1)/2; // JA: The equation should be n*(3*n -1)/2
+        if (n>5) // JA: Not sure what this is for
         {
             n=n-1;
         }

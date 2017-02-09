@@ -36,7 +36,7 @@ public class prob_5_1 {
             }    
         count++;   
         sum = sum + number;
-        average = sum/count; 
+        average = sum/count; // JA: sum and count are both integers, so the result is an integer. You need to force them to be double.
         number = input.nextInt();
         
         } 
