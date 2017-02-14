@@ -12,12 +12,15 @@ public class prob_7_8 {
     {
     System.out.println("Enter Values: ");
     double[] array1 = new double[10];
+    int[] array2 = new int[10];
     Scanner input = new Scanner(System.in);
     for (int i=0;i<10 ;i++)
            {
-    	   array1[i] = input.nextDouble();
+    	   array2[i] = input.nextInt();
+           array1[i] = array2[i];
            }
- System.out.println(average(array1));
+ System.out.println("Average of double[] array = " + average(array1));
+ System.out.println("Average of int[] array = " + average(array2));
     }
     
     
