@@ -16,7 +16,7 @@ public class prob_7_8 {
     Scanner input = new Scanner(System.in);
     for (int i=0;i<10 ;i++)
            {
-    	   array2[i] = input.nextInt();
+    	   array2[i] = input.nextInt(); // JA: You had to real double values, not integers
            array1[i] = array2[i];
            }
  System.out.println("Average of double[] array = " + average(array1));

@@ -25,7 +25,7 @@ public class prob_6_12 {
     public static void printChars(char ch1, char ch2, int numberPerLine)
     {
        int space = (int)(ch2-ch1);
-       for (int i=0;i<space;i++)
+       for (int i=0;i<space;i++) // JA: This will miss the last character
        {
            if (i%numberPerLine==0)
         {

@@ -6,6 +6,8 @@ import java.util.Scanner;
  * Juan Arias
  * Problem (7.2)
  */
+
+ // JA: Logic is fine. You just needed to print spaces between the numbers
 public class prob_7_2{
     public static void main(String[] args) {
 	   int[] firstList = new int[10];

@@ -7,6 +7,8 @@ import java.util.Scanner;
  * Problem (6.16)
  */
 
+// JA: You meeded to have a loop to display all the years between 200 and 2020 with their 
+// JA: respective days
 public class prob_6_16{
     
     public static void main (String[] args)

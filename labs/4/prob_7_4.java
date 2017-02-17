@@ -30,7 +30,7 @@ public class prob_7_4 {
            
         }
     
-       int average = sum / count;
+       int average = sum / count; // JA: This has to be a non-integer operation.
        int aboveCount=0;
        int equalCount=0;
        
