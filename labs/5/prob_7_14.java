@@ -5,6 +5,7 @@ import java.util.Scanner;
  * Juan Arias
  * Problem (7.14)
  */
+ // JA: Add comments. Make sure it is indented right.
 public class prob_7_14 {
     public static void main(String[] args)
     {
@@ -30,7 +31,7 @@ public class prob_7_14 {
     int gcd = 1;		
     boolean canDivide;
 
-    for (int i = 2; i < min; i++)
+    for (int i = 2; i < min; i++) // JA: This loop has to go all the way to min (<=)
     {
 	canDivide = true;
         for (int j: numbers)

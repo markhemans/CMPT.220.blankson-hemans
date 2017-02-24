@@ -30,11 +30,12 @@ public class prob_8_7 {
         }
       
       System.out.println("The closest two points are " + "(" + points[p1][0] + ", " + points[p1][1] + ") and (" +points[p2][0] + ", " + points[p2][1] + ")");
+	  // JA: You had to also print the z value
     }
     
       public static double distance(double x1, double y1, double z1, double x2, double y2, double z2)
       {
-        return Math.sqrt(Math.pow(x2 - x1, 2) +  Math.pow(y2 - y1, 2) + Math.pow(y2 - y1, 2));
+        return Math.sqrt(Math.pow(x2 - x1, 2) +  Math.pow(y2 - y1, 2) + Math.pow(y2 - y1, 2)); // JA: Last term is z2 - z1
       }
 
 }
