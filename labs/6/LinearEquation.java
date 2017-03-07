@@ -5,11 +5,10 @@ import java.util.Scanner;
  * Juan Arias
  * Problem (9.11)
  */
-    public class LinearEquation
-    {
+public class LinearEquation {
 public static void main(String[] strings) {
-
-        Scanner input = new Scanner(System.in);
+Scanner input = new Scanner(System.in);
+    
         System.out.print("Enter A: ");
         double a = input.nextDouble();
         System.out.print("Enter B: ");
@@ -23,7 +22,7 @@ public static void main(String[] strings) {
         System.out.print("Enter F: ");
         double f = input.nextDouble();
 
-        LinearEquation linearEqn = new LinearEquation(a,b,c,d,e,f);
+ LinearEquation linearEqn = new LinearEquation(a,b,c,d,e,f);
 
         if (linearEqn.isSolvable())
         {
