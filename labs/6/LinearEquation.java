@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (9.11)
+ */
     public class LinearEquation
     {
 public static void main(String[] strings) {
