@@ -1,6 +1,9 @@
-
-
-
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (11.3)
+ */
 public class Checkings extends Account
 {
 
