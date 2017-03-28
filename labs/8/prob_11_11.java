@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (11.11)
+ */
 
 public class prob_11_11 {
 public static void main(String[] args){
