@@ -3,9 +3,8 @@ import java.util.Scanner;
  * * @author Mark Blankson-Hemans
  * CMPT 220
  * Juan Arias
- * Problem (9.13)
+ * Problem (10.3)
  */
-
 public class MyInteger
 {
 
