@@ -1,3 +1,10 @@
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (11.5)
+ */
+
 import java.util.ArrayList;
 
 public class Course {
