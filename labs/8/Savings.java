@@ -1,3 +1,9 @@
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (11.3)
+ */
 public class Savings extends Account
 {
 
