@@ -1,10 +1,9 @@
 import java.util.Date;
-
 /**
  * * @author Mark Blankson-Hemans
  * CMPT 220
  * Juan Arias
- * Problem (9.7)
+ * Problem (11.3)
  */
 public class Account {
     
