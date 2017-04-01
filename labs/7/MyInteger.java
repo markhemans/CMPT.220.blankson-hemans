@@ -1,10 +1,10 @@
-import java.util.Scanner;
 /**
  * * @author Mark Blankson-Hemans
  * CMPT 220
  * Juan Arias
  * Problem (10.3)
  */
+
 public class MyInteger
 {
 

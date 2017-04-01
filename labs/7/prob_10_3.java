@@ -32,8 +32,8 @@ public class prob_10_3
         System.out.println("");
         System.out.println("variable 'number1' == variable 'number2': " +number1.equals(number2));
         System.out.println("variable 'number1' == variable 'number3' " +number1.equals(number3));
-        System.out.println("12321 to string value: "  +MyInteger.parseInt("12321"));
-        System.out.println("12321 to char[] array value: " +MyInteger.parseInt("12321".toCharArray()));
+        System.out.println("2hello to string value: "  +MyInteger.parseInt("2hello"));
+        System.out.println("hello to char[] array: " +MyInteger.parseInt("hello".toCharArray()));
 
     }
 }
