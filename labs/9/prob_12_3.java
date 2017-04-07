@@ -27,8 +27,6 @@ public class prob_12_3 {
         catch (IndexOutOfBoundsException ex)
         {
             System.out.println("Out of bounds");
-        } 
-    
-    
+        }
     }
 }
