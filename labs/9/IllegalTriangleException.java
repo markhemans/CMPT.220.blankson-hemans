@@ -7,13 +7,14 @@
 public class IllegalTriangleException extends Triangle {
 public static void main(String[] args) {
 
-        Triangle t1;
-        try {
-            t1 = new Triangle(10, 10, 10);
+        Triangle triangle;
+        try
+        {
+            triangle = new Triangle(10, 10, 10);
         }
         catch (IllegalTriangleException e)
-                {
-                System.out.println("Triangle cannot exist.");
+        {
+            System.out.println("Triangle cannot exist.");
         }
 
     }
