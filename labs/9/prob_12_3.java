@@ -1,3 +1,9 @@
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (12.3)
+ */
 import java.util.Scanner;
 
 public class prob_12_3 {
@@ -8,7 +14,7 @@ public class prob_12_3 {
         
         for (int i = 0; i < randomNumbers.length; i++)
         {
-            randomNumbers[i] = (int) (Math.random() * 100);
+            randomNumbers[i] = (int)(Math.random()*'100);
         }
         
         System.out.print("Enter an index: ");
