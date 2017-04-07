@@ -2,7 +2,7 @@
  * * @author Mark Blankson-Hemans
  * CMPT 220
  * Juan Arias
- * Problem (12.3]1)
+ * Problem (12.1)
  */
 public class prob_12_1 {
   
