@@ -1,5 +1,9 @@
-
-
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (12.5)
+ */
 public class IllegalTriangleException extends Triangle {
 public static void main(String[] args) {
 
