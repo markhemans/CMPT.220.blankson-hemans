@@ -71,14 +71,15 @@ public class Triangle extends GeometricObject {
         }
     } 
      
-    public class IllegalTriangleException extends IllegalArgumentException {
+    public class IllegalTriangleException extends IllegalArgumentException
+    {
 
         public double side1;
         public double side2;
         private double side3;
 
-         public IllegalTriangleException(double side1, double side2, double side3) {
-            super("Triangle does not exist");
+         public IllegalTriangleException(double side1, double side2, double side3)
+         {
             this.side1 = side1;
             this.side2 = side2;
             this.side3 = side3;
