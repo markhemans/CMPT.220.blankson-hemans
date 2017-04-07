@@ -1,3 +1,9 @@
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (12.11)
+ */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
