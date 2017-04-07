@@ -10,7 +10,7 @@ public static void main(String[] args) {
         Triangle triangle;
         try
         {
-            triangle = new Triangle(10, 10, 10);
+            triangle = new Triangle(10, 10, 2000);
         }
         catch (IllegalTriangleException e)
         {
