@@ -27,7 +27,8 @@ public class prob_12_11 {
             System.out.println(args[1] + " does not exist.");
         }
 
-        
+		
+        // JA: There should be a while loop to read the whole file
         String word = "";
         try
         {

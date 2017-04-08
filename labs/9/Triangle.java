@@ -19,6 +19,7 @@ public class Triangle extends GeometricObject {
         isValidTriangle();
     }
     
+	// JA: This methid also needs to throw an exception
     public Triangle(double side1, double side2, double side3) {
         
         this.side1 = side1;
