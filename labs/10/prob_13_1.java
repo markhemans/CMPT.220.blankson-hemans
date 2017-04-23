@@ -8,8 +8,6 @@ import java.util.Scanner;
 
  public class prob_13_1 {
    
-
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -35,7 +33,6 @@ import java.util.Scanner;
         System.out.println("Perimeter: " + triangle.getPerimeter());
         System.out.println("Color: " + triangle.getColor());
         System.out.println("Filled: " + triangle.isFilled());
-
 
     }
 
