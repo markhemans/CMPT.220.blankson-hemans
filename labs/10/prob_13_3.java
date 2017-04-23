@@ -1,3 +1,9 @@
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (13.3)
+ */
 import java.util.ArrayList;
 
 public class prob_13_3 {
