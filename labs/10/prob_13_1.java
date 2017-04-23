@@ -1,3 +1,9 @@
+/**
+ * * @author Mark Blankson-Hemans
+ * CMPT 220
+ * Juan Arias
+ * Problem (13.1)
+ */
 import java.util.Scanner;
 
  public class prob_13_1 {
